@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="welcome">
+      <h1>Project: Encrypt and Decrypt</h1>
+    </div>
+    
+    <div class="container">
+    <div class="encrypt">
+      <h3>Encrypt Me!</h3>
+      <div>Enter text to be encrypted: <input type="text" id="inputEncrypt" placeholder="ABC"></div>
+      <div>Offset: <input type="text" id="offsetEncrypt" placeholder="2"></div>
+      <button id="submitEncrypt">Encrypt</button>
+      <p>Your encrypted message is: <span id="encoded"></span></p>
+    </div>
+
+    <div class="decrypt">
+      <h3>Decrypt Me!</h3>
+      <div>Enter text to be decrypted: <input type="text" id="inputDecrypt" placeholder="CDE"></div>
+      <div>Offset: <input type="text" id="offsetDecrypt" placeholder="2"></div>
+      <button id="submitDecrypt">Decrypt</button>
+      <p>Your decrypted message is: <span id="decoded"></span></p>
+    </div>
+    </div>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
